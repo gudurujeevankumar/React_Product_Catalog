@@ -55,6 +55,27 @@ header.app-header {
   color: #fff;
 }
 
+@media (max-width: 600px) {
+ .header-title {
+  display: none;
+ }
+  .header-right {
+    position: absolute !important;
+    top: 65px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .app-header {
+    height: 70px;
+  }
+  .header-middle {
+    position: absolute !important;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 .header-actions {
   flex: 1;
   display: flex;
