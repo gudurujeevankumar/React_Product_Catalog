@@ -70,7 +70,7 @@ header.app-header {
   }
   .header-middle {
     position: absolute !important;
-    top: 6%;
+    top: 3%;
     left: 50%;
     transform: translateX(-50%);
   }
